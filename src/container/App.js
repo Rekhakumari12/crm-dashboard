@@ -6,8 +6,10 @@ import Overview from '../components/overview/Overview.jsx';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Menu />
+      <div className='shadow-md' style={{ backgroundColor: 'white' }}>
+        <Header />
+        <Menu />
+      </div>
       <Overview />
     </div>
   );

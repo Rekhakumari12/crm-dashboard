@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto", sans-serif;
+  color: var(--gray);
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: var(--bg);
 }
 
 code {
@@ -18,4 +22,5 @@ code {
   --gray: #7a7a7a;
   --blue: #1975f0;
   --dark-gray: #595959;
+  --bg: #f8f8f8;
 }
