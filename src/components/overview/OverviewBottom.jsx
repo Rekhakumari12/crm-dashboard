@@ -1,12 +1,20 @@
+import { Grid } from '@mui/material';
 import React from 'react';
+import BasicCard from '../Card';
 
 const OverviewBottom = () => {
   return (
-    <div className='overview_bottom_section'>
-      <div className='current_tasks'></div>
-      <div className='follower_states'></div>
-      <div className='user_visits'></div>
-    </div>
+    <Grid container columnSpacing={{ md: 3 }} rowSpacing={{ sm: 1, xs: 1 }}>
+      <Grid item md={4} sm={12} xs={12}>
+        <BasicCard />
+      </Grid>
+      <Grid item md={4} sm={12} xs={12}>
+        <BasicCard />
+      </Grid>
+      <Grid item md={4} sm={12} xs={12}>
+        <BasicCard />
+      </Grid>
+    </Grid>
   );
 }
 

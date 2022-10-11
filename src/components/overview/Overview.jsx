@@ -1,10 +1,10 @@
 import React from 'react';
 import OverviewBottom from './OverviewBottom';
 import OverviewUpper from './OverviewUpper';
-import { OverviewWrapper } from '../../container/App.styles';
+import { OverviewWrapper } from '../../components/overview/Overview.style';
 const Overview = () => {
   return (
-    <OverviewWrapper className='mt-10'>
+    <OverviewWrapper>
       <OverviewUpper />
       <OverviewBottom />
     </OverviewWrapper>

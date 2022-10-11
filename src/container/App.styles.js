@@ -36,13 +36,27 @@ export const MenuWrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    li{
-      display: flex;
-      align-items: center;
+    .list{
       cursor:pointer;
     }
-    padding:1rem;
+    padding: 1rem 4rem;
 `
 
-export const OverviewWrapper = styled.div`
+export const ButtonWrapper = styled.button`
+  border: 1px solid var(--medium-gray);
+  padding: 5px 23px;
+  font-weight:500;
+  border-radius: 3px;
+`
+
+export const TextWithIconWrapper = styled.div`
+display:flex;
+gap: 10px;
+padding-bottom:10px ;
+  svg{
+    border:1px solid var(--medium-gray);
+    border-radius: 50%;
+    padding: 2px;
+  }
+
 `

@@ -26,7 +26,7 @@ const Menu = () => {
     <MenuWrapper>
       <Grid container className="justify-evenly" columnSpacing={{ sm: 4, xs: 2 }} rowSpacing={{ sm: 1, xs: 2 }}>
         {Menus.map((menu, idx) => (
-          <Grid item sm={3} md={1} xs={3} key={idx} className="font-medium flex items-center justify-center">
+          <Grid item sm={3} md={1} xs={3} key={idx} className="font-medium flex items-center justify-center list">
             <span className="mr-2">{menu.icon}</span><span>{menu.text}</span>
           </Grid>
         ))}

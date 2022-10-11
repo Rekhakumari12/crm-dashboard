@@ -6,7 +6,7 @@ import Overview from '../components/overview/Overview.jsx';
 function App() {
   return (
     <div className="App">
-      <div className='shadow-md' style={{ backgroundColor: 'white' }}>
+      <div className='shadow-md' style={{ backgroundColor: 'white', position: 'sticky' }}>
         <Header />
         <Menu />
       </div>
