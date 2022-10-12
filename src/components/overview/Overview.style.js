@@ -22,4 +22,14 @@ export const OverviewWrapper = styled.div`
     margin-left: 10rem;
     padding-top: 1rem;
   }
+  .leftside{
+    position:relative ;
+  }
+`
+export const Dot = styled.div`
+  background-color:${props => props.type === 'online' ? 'var(--blue)' : '#FE3678'} ;
+  width:6px;
+  height:6px;
+  margin-right:4px;
+  border-radius:50% ;
 `

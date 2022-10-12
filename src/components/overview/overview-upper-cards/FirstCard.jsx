@@ -8,8 +8,8 @@ import { Box } from '@mui/system';
 const FirstCard = () => {
   return (
     <>
-      <TextWithIcon text={'Dashboard'} icon={<DownArrow width={15} height={15} />} />
-      <div className='flex justify-between mb-4'>
+      <TextWithIcon text={'Dashboard'} icon={<DownArrow width={15} height={15} />} className='absolute' />
+      <div className='flex justify-between'>
         <h2 className='text-3xl'>Overview</h2>
         <div>
           <Button>Check Now</Button>
