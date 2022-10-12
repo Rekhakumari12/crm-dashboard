@@ -40,10 +40,13 @@ export const MenuWrapper = styled.div`
       cursor:pointer;
     }
     padding: 1rem 4rem;
+
 `
 
 export const ButtonWrapper = styled.button`
-  border: 1px solid var(--medium-gray);
+  border: ${props => props.type === 'solid' ? '1px solid var(--blue)' : '1px solid var(--medium-gray)'};
+  background-color:${props => props.type === 'solid' && 'var(--blue)'} ;
+  color: ${props => props.type === 'solid' && 'white'};
   padding: 5px 23px;
   font-weight:500;
   border-radius: 3px;

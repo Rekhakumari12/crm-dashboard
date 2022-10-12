@@ -3,7 +3,9 @@ import BasicCard from "../../Card";
 const SmallCard = () => {
   return (
     <>
-      <BasicCard></BasicCard>
+      <BasicCard>
+
+      </BasicCard>
     </>
   );
 }

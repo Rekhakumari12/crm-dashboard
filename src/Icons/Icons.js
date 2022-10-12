@@ -11,6 +11,7 @@ import { ReactComponent as UserIcon } from "../assets/user.svg";
 import { ReactComponent as ProjectsIcon } from "../assets/project.svg";
 import { ReactComponent as Trash } from "../assets/trash.svg";
 import { ReactComponent as PencileIcon } from "../assets/pencile.svg";
+import { ReactComponent as ClockIcon } from "../assets/clock.svg";
 
 export {
   SettingsIcon,
@@ -25,5 +26,6 @@ export {
   UserIcon,
   ProjectsIcon,
   Trash,
-  PencileIcon
+  PencileIcon,
+  ClockIcon
 };
