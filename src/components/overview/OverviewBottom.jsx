@@ -11,7 +11,7 @@ import { Chart as ChartJS, Title, Tooltip, LineElement, Legend, CategoryScale, L
 ChartJS.register(Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement, Filler, BarElement)
 const OverviewBottom = () => {
   // just for the sake of complete it fast
-  const [data, setData] = useState({
+  const [data] = useState({
     datasets: [
       {
         type: 'bar',

@@ -9,7 +9,7 @@ import { Dot } from '../Overview.style';
 ChartJS.register(Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement, Filler)
 
 const SecondCard = () => {
-  const [data, setData] = useState({
+  const [data] = useState({
     datasets: [
       {
         type: 'line',
